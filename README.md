@@ -1,6 +1,8 @@
 # Get-Parked-Leonardo-s-Detection-Code
 Made by: Get Parked
+
 Date: 12/01/2023
+
 GitHub Repository for Leonardo's Open Spot Detection Code with main files, pictures, support files and tutorial presentation
 
 This Repository will contain all the files and instructions needed to correctly set up an open spot detection system in a parking lot using Python, OpenCV and NumPy.
