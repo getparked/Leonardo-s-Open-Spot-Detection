@@ -11,14 +11,14 @@ It then will gather this information in an array and transmit the data to The Th
 # Import Libraries
 import cv2 as cv
 import numpy as np
-##import serial
+import serial
 
 print("Starting")
 
 # Variable Initialization
 OpenSpotsCtr = 0
 ParkingSpotsArray = [1] * 184
-##ser = serial.Serial('/dev/ttyS0', 115200, timeout=3)
+ser = serial.Serial('/dev/ttyS0', 115200, timeout=3)
 
 H_BFR = 1
 S_BFR = 5
@@ -577,12 +577,8 @@ for spot in parking_spots:
 # Conversion Leonardo
 TX_list = TransformToDecimal(ParkingSpotsArray)
 
-### TX Snipet
-##ser.write(TX_list.encode('utf-8'))
-##print("data sent")
-##print(TX_list.encode('utf-8'))
-##x = ser.readline()
-##print(x.decode('utf-8'))
+# TX Snipet
+ser.write(TX_list.encode('utf-8'))
 
 # Print
 print(f"There are {OpenSpotsCtr} open spots.")

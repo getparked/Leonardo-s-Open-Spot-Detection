@@ -17,6 +17,6 @@ cv.line(PLResized, (988, 56), (1006, 55), (0, 0, 255), 2) #Red
 #600
 
 cv.imshow("Funciona?", PLResized)
-#cv.imshow("OG", PLOG)
+cv.imshow("OG", PLOG)
 cv.waitKey(0)
 cv.destroyAllWindows()

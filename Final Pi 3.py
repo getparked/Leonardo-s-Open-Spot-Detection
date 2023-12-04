@@ -17,7 +17,7 @@ print("Starting")
 
 # Variable Initialization
 OpenSpotsCtr = 0
-ParkingSpotsArray = [1] * 185
+ParkingSpotsArray = [1] * 184
 ser = serial.Serial('/dev/ttyS0', 115200, timeout=3)
 
 H_BFR = 1
@@ -571,10 +571,6 @@ TX_list = TransformToDecimal(ParkingSpotsArray)
 
 # TX Snipet
 ser.write(TX_list.encode('utf-8'))
-print("data sent")
-print(TX_list.encode('utf-8'))
-x = ser.readline()
-print(x.decode('utf-8'))
 
 # Print
 print(f"There are {OpenSpotsCtr} open spots.")
