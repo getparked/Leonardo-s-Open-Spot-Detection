@@ -15,3 +15,5 @@ Versions:
 
   Along with the detection system, these files contain snippets for data transmission as it is part of the Get Parked's service scope, but it will not
   be covered here.
+  
+  Special Thanks to all of Camosun's Personel, my parents and to the z fighters.
