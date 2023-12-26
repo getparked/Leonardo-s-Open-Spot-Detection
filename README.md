@@ -1,5 +1,5 @@
 # Get-Parked-Leonardo-s-Detection-Code
-GitHub Repository for Leonardo's Open Spot Detection Code with main files, pictures, support files and tutorial presentation
+GitHub Repository for Leonardo's Open Spot Detection Code with main files, pictures, support files and tutorial presentation.
 
 This Repository holds all the files needed to set up Get Parked's Open Spot Detection Code in a parking lot.
 This code is meant to be run from a processor with access to images, hopefully of a parking lot.
