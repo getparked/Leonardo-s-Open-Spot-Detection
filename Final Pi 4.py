@@ -577,7 +577,7 @@ for spot in parking_spots:
 # Conversion Leonardo
 TX_list = TransformToDecimal(ParkingSpotsArray)
 
-# TX Snipet
+# TX Snippet
 ser.write(TX_list.encode('utf-8'))
 
 # Print
